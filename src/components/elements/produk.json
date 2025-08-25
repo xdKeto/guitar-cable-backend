@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_produks",
+  "info": {
+    "displayName": "produk"
+  },
+  "options": {},
+  "attributes": {
+    "namaProduk": {
+      "type": "text"
+    },
+    "meter": {
+      "type": "integer"
+    },
+    "harga": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

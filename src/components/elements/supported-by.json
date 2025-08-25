@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_supported_bies",
+  "info": {
+    "displayName": "supportedBy"
+  },
+  "options": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
