@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_kontaks",
+  "info": {
+    "displayName": "kontak"
+  },
+  "options": {},
+  "attributes": {
+    "noWhatsapp": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

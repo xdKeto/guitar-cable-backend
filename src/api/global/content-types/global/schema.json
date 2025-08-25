@@ -25,6 +25,11 @@
       "type": "component",
       "component": "elements.media",
       "repeatable": false
+    },
+    "noWahtsapp": {
+      "type": "component",
+      "component": "elements.kontak",
+      "repeatable": false
     }
   }
 }

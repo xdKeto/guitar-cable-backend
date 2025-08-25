@@ -1,5 +1,15 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface ElementsKontak extends Struct.ComponentSchema {
+  collectionName: 'components_elements_kontaks';
+  info: {
+    displayName: 'kontak';
+  };
+  attributes: {
+    noWhatsapp: Schema.Attribute.String;
+  };
+}
+
 export interface ElementsMedia extends Struct.ComponentSchema {
   collectionName: 'components_elements_media';
   info: {
@@ -36,6 +46,7 @@ export interface ElementsSupportedBy extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'elements.kontak': ElementsKontak;
       'elements.media': ElementsMedia;
       'elements.produk': ElementsProduk;
       'elements.supported-by': ElementsSupportedBy;

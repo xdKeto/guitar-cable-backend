@@ -432,6 +432,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     media: Schema.Attribute.Component<'elements.media', false>;
+    noWahtsapp: Schema.Attribute.Component<'elements.kontak', false>;
     publishedAt: Schema.Attribute.DateTime;
     supportBy: Schema.Attribute.Component<'elements.supported-by', true>;
     updatedAt: Schema.Attribute.DateTime;
