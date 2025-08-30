@@ -424,6 +424,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    linkKontak: Schema.Attribute.Component<'elements.kontak', false>;
     listProduk: Schema.Attribute.Component<'elements.produk', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -432,7 +433,6 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     media: Schema.Attribute.Component<'elements.media', false>;
-    noWahtsapp: Schema.Attribute.Component<'elements.kontak', false>;
     publishedAt: Schema.Attribute.DateTime;
     supportBy: Schema.Attribute.Component<'elements.supported-by', true>;
     updatedAt: Schema.Attribute.DateTime;

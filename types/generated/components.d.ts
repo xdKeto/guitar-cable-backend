@@ -6,6 +6,9 @@ export interface ElementsKontak extends Struct.ComponentSchema {
     displayName: 'kontak';
   };
   attributes: {
+    linkShopee: Schema.Attribute.String;
+    linkTiktok: Schema.Attribute.String;
+    linkTokopedia: Schema.Attribute.String;
     noWhatsapp: Schema.Attribute.String;
   };
 }

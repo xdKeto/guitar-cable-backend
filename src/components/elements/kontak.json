@@ -7,6 +7,15 @@
   "attributes": {
     "noWhatsapp": {
       "type": "string"
+    },
+    "linkTokopedia": {
+      "type": "string"
+    },
+    "linkShopee": {
+      "type": "string"
+    },
+    "linkTiktok": {
+      "type": "string"
     }
   },
   "config": {}
