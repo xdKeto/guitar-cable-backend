@@ -31,6 +31,7 @@ export interface ElementsProduk extends Struct.ComponentSchema {
   };
   attributes: {
     harga: Schema.Attribute.String;
+    keterangan: Schema.Attribute.Text;
     meter: Schema.Attribute.Integer;
     namaProduk: Schema.Attribute.Text;
   };

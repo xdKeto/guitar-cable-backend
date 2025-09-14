@@ -13,6 +13,9 @@
     },
     "harga": {
       "type": "string"
+    },
+    "keterangan": {
+      "type": "text"
     }
   },
   "config": {}
