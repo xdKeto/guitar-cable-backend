@@ -6,6 +6,7 @@ export interface ElementsKontak extends Struct.ComponentSchema {
     displayName: 'kontak';
   };
   attributes: {
+    keterangan: Schema.Attribute.Text;
     linkShopee: Schema.Attribute.String;
     linkTiktok: Schema.Attribute.String;
     linkTokopedia: Schema.Attribute.String;
